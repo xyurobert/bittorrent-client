@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run a leecher that connects to our seeder on port 6881
+python3 . -p 6882 --restrict-peers 0.0.0.0:6881 -o out

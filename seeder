@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python3 . -p 6881 --restrict-peers ""
